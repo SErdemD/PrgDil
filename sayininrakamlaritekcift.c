@@ -4,7 +4,7 @@ void main(){
     int say; int ciftSay = 0; int tekSay = 0;
     printf("sayi giriniz: ");
     scanf("%d",&say);
-    for(int sayac = 1 ; say/sayac > 0.1 ; sayac*=10)
+    for(int sayac = 1 ; say/sayac >= 1 ; sayac*=10)
         if((say/sayac) % 2 == 0)
             ciftSay++;
         else
